@@ -1,0 +1,22 @@
+Comandos para facilitar na instalação das bibliotecas - Debian (Raspberry Pi)
+
+Github
+sudo apt update
+sudo apt install git
+git --version
+
+mkdir git-repos
+cd git-repos
+git clone https://github.com/uiot/crowd_detector
+
+OpenCV
+
+sudo apt-get install python3-opencv
+
+df -h
+sudo apt-get update && sudo apt-get upgrade
+mkdir ~/src && cd ~/src
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+sudo pip install opencv-contrib-python
+

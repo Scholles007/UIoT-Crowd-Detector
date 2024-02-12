@@ -1,0 +1,7 @@
+http://www.insecam.org/en/
+
+http://158.58.130.148:80/mjpg/video.mjpg - Hotel
+http://208.72.70.172/mjpg/1/video.mjpg - praça aberta
+http://114.35.156.187:85/webcapture.jpg?command=snap&channel=1?COUNTER - Lojinha
+http://72.89.63.90:8083/mjpg/video.mjpg - BOX
+http://61.214.197.204:1024/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000 - Camera mercado

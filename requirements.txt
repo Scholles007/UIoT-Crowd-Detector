@@ -1,0 +1,5 @@
+opencv-contrib-python==4.4.0.46
+PyYAML==5.3.1
+requests
+virtualenv
+opencv-python
