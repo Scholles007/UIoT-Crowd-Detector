@@ -15,28 +15,22 @@ The full article is available at [link](https://www.proquest.com/docview/2648272
 
 ## Usage
 1. Clone the repository and navigate to it:
-```shell
-git clone https://github.com/uiot/crowd_detector.git
-cd crowd_detector
+`git clone https://github.com/uiot/crowd_detector.git
+cd crowd_detector`
 
 2. Create a virtual environment and activate it:
-```shell
-virtualenv venv
-source venv/bin/activate # Linux
-.\venv\Scripts\activate # Windows
+`virtualenv venv
+source venv/bin/activate # Linux`
 
 3. Install required packages:
-```shell
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4. Download YOLO's weights to the `yolo_files` folder:
-```shell
-wget -O ./crowd_detector/yolo_detection/yolo_files/yolo.weights \
-https://pjreddie.com/media/files/yolov4.weights
+`wget -O ./crowd_detector/yolo_detection/yolo_files/yolo.weights \
+https://pjreddie.com/media/files/yolov4.weights`
 
 5. Execute the main code:
-```shell
-python ./crowd_detector/main.py
+`python ./crowd_detector/main.py`
 
 ## Config
 Configuration can be done in the `./crowd_detector/config.yaml` file.
